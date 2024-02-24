@@ -1,0 +1,60 @@
+.mainSection {
+  box-sizing: border-box;
+  background-color: #f2f1f1;
+  width: 62.5rem;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 3.125rem 3.125rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.SelectBtnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.StartBtn {
+  padding: 10px 30px;
+  color: #fff;
+  background-color: rgb(85, 85, 255);
+  border-radius: 5px;
+  letter-spacing: 0.4px;
+  border: none;
+}
+.SquareLogContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+}
+.row {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.square {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border: 0.5px solid black;
+  display: inline-block;
+}
+.log {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  height: 300px;
+  overflow-y: auto;
+}
+.logMessage {
+  background-color: rgb(255, 220, 176);
+  color: rgb(169, 89, 4);
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+.blue {
+  background-color: rgb(85, 85, 255);
+}
